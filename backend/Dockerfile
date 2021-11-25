@@ -15,11 +15,7 @@ ENV PYTHONUNBUFFERED 1
 # install dependencies
 COPY ./requirements.txt .
 
-RUN pip install pipenv==2018.11.26 && \
-      pipenv lock --requirements > ./requirements.txt && \
-      pip wheel --no-cache-dir --no-deps --wheel-dir /usr/src/app/wheels --requirement ./requirements.txt
-
-#RUN pip wheel --no-cache-dir --no-deps --wheel-dir /usr/src/app/wheels -r requirements.txt
+RUN pip wheel --no-cache-dir --no-deps --wheel-dir /usr/src/app/wheels -r requirements.txt
 
 
 #########
