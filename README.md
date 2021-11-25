@@ -13,4 +13,4 @@ Tech stack:
  -  Postgres
 
 Backend – Django, Django REST framework, PostgresSQL
-
+Frontend – React 
