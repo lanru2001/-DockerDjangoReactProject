@@ -22,12 +22,12 @@ cd into the souce code directory where the docker compose file is and run the co
 
 Tech stack:
  - EKS
- - -Docker
- - -Django
- - -React-App
- -  Python
- -  Nodejs
- -  Postgres
+ - Docker
+ - Django
+ - React-App
+ - Python
+ - Nodejs
+ - Postgres
 
 Backend – Django, Django REST framework, PostgresSQL
 Frontend – React 
