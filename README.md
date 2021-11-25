@@ -14,3 +14,4 @@ Tech stack:
 
 Backend – Django, Django REST framework, PostgresSQL
 Frontend – React 
+source: https://datagraphi.com/blog/post/2020/8/30/docker-guide-build-a-fully-production-ready-machine-learning-app-with-react-django-and-postgresql-on-docker
