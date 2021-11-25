@@ -7,3 +7,6 @@ Tech stack:
  - -Docker
  - -Django
  - -React-App
+ -  Python
+ -  Nodejs
+ -  Postgres
