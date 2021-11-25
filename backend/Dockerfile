@@ -13,7 +13,7 @@ ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
 
 # install dependencies
-COPY ./requirements.txt .
+COPY requirements.txt   .
 
 RUN pip wheel --no-cache-dir --no-deps --wheel-dir /usr/src/app/wheels -r requirements.txt
 
@@ -40,10 +40,10 @@ RUN pip install --no-cache /wheels/*
 WORKDIR /usr/src/app
 
 # copy entrypoint.sh
-COPY ./entrypoint.sh /usr/src/app/entrypoint.sh
+COPY entrypoint.sh   /usr/src/app/entrypoint.sh
 
 # copy our django project
-COPY ./django_app .
+COPY django_app   .
 
 # run entrypoint.sh
 RUN chmod +x /usr/src/app/entrypoint.sh
