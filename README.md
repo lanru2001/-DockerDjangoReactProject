@@ -16,9 +16,10 @@ The react service sends the API_SERVER variable to the production build version 
 
 The nginx service serves both our django and react services. 
 
-To Dockerize the app:
-
-cd into the souce code directory where the docker compose file is and run the command 'docker-compose up' or 'docker-compose up --build'.
+## Dockerize the app:
+```bash
+docker-compose up or docker-compose up --build
+```
 
 Tech stack:
  - EKS
